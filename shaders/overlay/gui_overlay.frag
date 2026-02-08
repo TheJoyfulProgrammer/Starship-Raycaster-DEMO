@@ -677,7 +677,9 @@ vec4 drawCompassRose(vec2 fragPx)
 
     vec2 p = fragPx - center;
 
-    float ang = pc.b.z;
+    const float halfPi = 1.5707963267948966192;
+    float ang = -(pc.b.z + halfPi);
+    //float ang = pc.b.z;
 
     // Rose geometry uses rotated space
     vec2 pr = rot(p, -ang);
