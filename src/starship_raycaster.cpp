@@ -1012,11 +1012,11 @@ void App::spawnSprites(uint32_t seed)
             }
         }
 
-        //std::shuffle(candidates.begin(), candidates.end(), rng);
+        std::shuffle(candidates.begin(), candidates.end(), rng);
         const int wantPlants = 1000000; //24;
         const int toSpawn = std::min<int>(wantPlants, (int)candidates.size());
 
-        std::cout << "Spawning " << toSpawn << " plants in " << candidates.size() << " candidate cells.\n";
+        //std::cout << "Spawning " << toSpawn << " plants in " << candidates.size() << " candidate cells.\n";
 
         for (int i = 0; i < toSpawn && (int)sprites_.size() < (int)MAX_SPRITES; ++i)
         {
