@@ -1,0 +1,93 @@
+KEY USAGE:
+
+// The keys listed from this point can only be used in index mode.
+
+<0> - Sets palette to Grayscale
+<1> - Sets palette to perceptual
+<2> - Sets palette to Dark Green (Apple ][e green monochrome monitor)
+<3> - Sets palette to Medium Green (Apple ][c green monochrome monitor)
+<4> - Sets palette to Dark Amber (Old IBM monochrome monitor)
+<5> - Sets palette to Medium Amber (Old IBM PC monochrome monitor)
+<6> - Sets palette to VGA256 (EGA & VGA palette color modes)
+<7> - Sets palette to Color Theory mode (7 modes - use <Page Up> and <Page Down> keys to iterate through)
+<8> - Sets palette to Muted Teal
+<9> - Sets palette to Vermilion
+
+<CTRL> + <F1> - Decreases the number of indexed colors (minimum 2)
+<CTRL> + <F2> - Increases the number of indexed colors (minimum 256)
+<F3> - Toggle dithering ON/OFF
+<F4> - Turn on Floyd Steinberg dithering
+<F5> - Turn on Floyd Steinberg Luma Only dithering
+<F6> - Turn on Floyd Steinberg Block dithering
+<F7> - Turn on Atkinson dithering
+<F8> - Turn on Ordered Bayer dithering
+      --> <CTRL> + <-> or <CTRL> + <_> to decrease strength
+      --> <CTRL> + <+> or <CTRL> + <=> to increase strength
+<F9> - Turn on Jarvis Judice Ninke dithering
+<F10> - Turn on Stucki dithering
+<F11> - Turn on Riemersma dithering
+<F12> - Turn on Blue Noise dithering
+      --> <CTRL> + <-> or <CTRL> + <_> to decrease strength
+      --> <CTRL> + <+> or <CTRL> + <=> to increase strength
+      --> <CTRL> + <SHIFT> + <B> to toggle Dlue Noise shift ON/OFF
+
+
+
+// The keys listed from this point are used in the Color Theory mode.
+
+<Left Arrow> - Decreases the HUE position
+<Right Arrow> - Increases the HUE position
+<Up Arrow> - Increases the LUMA position
+<Down Arrow> - Decreases the LUMA position
+<Page Up> - Increments through the Color Theory schemes
+<Page Down> - Decrements through the Color Theory schemes
+
+// COLOR THEORY SCHEMES:
+//
+//    0 - Monochromatic        offsets = { 0.0f };
+//    1 - Split Complementary  offsets = { 0.0f, 150.0f, 210.0f };
+//    2 - Triadic              offsets = { 0.0f, 120.0f, 240.0f };
+//    3 - Analogous            offsets = { -60.0f, -30.0f, 0.0f, 30.0f, 60.0f };
+//    4 - Diad                 offsets = { 0.0f, 180.0f };
+//    5 - Square               offsets = { 0.0f, 90.0f, 180.0f, 270.0f };
+//    6 - Tetradic             offsets = { 0.0f, 60.0f, 180.0f, 240.0f };
+
+
+// The keys listed from this point can be used in either palette or full-color modes.
+
+<[> - Iterates forward through the effects shader list
+<]> - Iterates backwards through the effects shader list
+<B> - Iterates forward through the CRT modes
+<CTRL> + <B> - Toggles legend CRT ON/OFF, must be in map mode (NOT VERY USEFUL)
+<F> - Toggles between full-color and indexed modes
+<G> - Toggles GUI layer ON/OFF
+<M> - Toggles MAP ON/OFF
+<TAB> - RELEASES/CAPTURES mouse
+<H> - Toggles Health vignette ON/OFF
+<J> - Toggles game layer ON/OFF
+<R> - Regenerates game map
+<E> - OPENS/CLOSES doors
+<L> - LOCKS/UNLOCKS doors
+<,> - Decreases game layer alpha
+<.> - Increases game layer alpha
+<F1> - Increases health vignette size
+<F2> - Decreases health vignette size
+
+
+// GAME MODE
+
+<A> - Move left
+<D> - Move right
+<W> - Moves forward
+<S> - Moves backward
+<Left Arrow> - Looks left
+<Right Arrow> - Looks right
+<SHIFT> - To run
+
+MOUSE CONTROLS:
+
+You can look 360 degrees left/right and 90 degrees up/down.
+
+Mouse wheel zooms large map.
+<CTRL> + Mouse Wheel - Fine zooming
+<SHIFT> + Mouse Wheel - Faster zooming
