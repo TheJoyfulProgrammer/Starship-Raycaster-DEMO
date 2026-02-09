@@ -177,7 +177,7 @@ When the players health reaches 0%, the triangle becomes dark red.
 ## FINAL CONCLUSION
 My hope is that this demo helps you create some amazing things.
 
-**THANK YOU**
-Walter W. Whitman
-The Joyful Programmer (tm)
-AstroCosmic Systems (tm)
+**THANK YOU**<br>
+Walter W. Whitman<br>
+The Joyful Programmer (tm)<br>
+AstroCosmic Systems (tm)<br>
