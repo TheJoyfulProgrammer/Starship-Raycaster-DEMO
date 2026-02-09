@@ -19,7 +19,7 @@ The demo provides two "SCREEN" modes: Full color and indexed.
 
 Starting with the palette mode, here is a screenshot showing a simple fragment shader being rendered with perceptual colors:
 
-![Screenshot](/assets/images/Screenshot 2026-02-08 175009.png)
+![Screenshot](/assets/images/Screenshot-2026-02-08-175009.png)
 
 Pixelation happens in realtime, and here is a screenshot showing the same indexed image with larger pixels, using the *perceptual color* mode, which is procedurally generated in realtime:
 
